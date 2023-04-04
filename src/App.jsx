@@ -1,10 +1,11 @@
 import "@fontsource/syne/800.css"
 import './App.css'
+import Nav from "./components/Nav/Nav.jsx";
 
 function App() {
   return (
     <div className="App">
-      <p className="">cursed.cat</p>
+        <Nav/>
     </div>
   )
 }
