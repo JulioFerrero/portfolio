@@ -1,7 +1,7 @@
 import "@fontsource/syne/800.css"
 import './App.css'
 import Nav from "./components/Nav/Nav.jsx";
-import CatEmoji from './assets/blushing_swearing_angry_cat_face.png'
+import CatEmoji from './assets/emoji-cat.png'
 
 function App() {
   return (
