@@ -1,9 +1,11 @@
 import "@fontsource/syne/800.css"
 import './App.css'
+import Nav from "./components/Nav/Nav.jsx";
 
 function App() {
   return (
     <div className="App">
+        <Nav/>
         <div className="header">
             <div className="header_spacer"/>
             <img alt="emoji cat" src="/public/blushing_swearing_angry_cat_face.png"/>
