@@ -9,9 +9,12 @@ function App() {
         <Nav/>
         <div className="header">
             <div className="header_spacer"/>
-            <img alt="emoji cat" src={CatEmoji}/>
-            <h1 style={{fontWeight: 800}}>Cursed Cat</h1>
-            <p>"The real danger is not that computers will begin to think like men, but that men will begin to think like computers."</p>
+            <div className="header_container">
+                <img className="center-block" alt="emoji cat" src={CatEmoji}/>
+                <h1 className="title">Cursed Cat</h1>
+                <p style={{textAlign: "center"}}>"The real danger is not that computers will begin to think like men, but that men will begin to think like computers."</p>
+            </div>
+
         </div>
     </div>
   )
